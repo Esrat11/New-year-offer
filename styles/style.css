@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+.structure{
+    width: 1250px;
+}
+  /* Header Section */
+  .banner{
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../assets/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    border-radius: 16px; 
+    /* width: 1250px; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .banner > h4 {
+    padding: 40px 480px 20px 480px;
+    width: 259px;
+    height: 40px;
+    color: orangered;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .banner > h2 {
+    padding: 30px 300px;
+    width: 632px;
+    height: 190px;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .holyday > h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .header-des{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .Subscribe {
+    margin-top: 0px;
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .banner2{
+    margin: 0px 180px;
+  }
+
+.banner-party{
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../assets/images/Group\ 70.png), url(../assets/images/Vectorrr.png) ;
+    border-radius: 16px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.banner-party > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    padding: 100px 150px 20px 150px;
+   width: 600px;
+    height: 20px;
+}
+.description{
+color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+width: 650px;
+height: 20px;
+padding: 100px 100px 20px 150px;
+}
+.btn{
+color: rgb(255, 255, 255);
+background: none;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+border: none;
+padding: 50px 300px 0px 145px;
+}
+
+.details{
+  margin-top: 120px;
+  padding:20px 0px;
+  /* width: 1250px; */
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+span {
+  color: rgb(255, 0, 0);
+}
+.font-style{
+  margin-top: 100px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.btn-primary{
+  margin: 20px 530px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background: rgb(255, 0, 0);
+  border: none;
+  width: 167px;
+  height: 56px;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+  gap: 20px;
+}
+.item-1 > h4{
+  text-align: left;
+}
+.item-1 > h3 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.shared-des{
+  width: 360px;
+  height: 120px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+.item-2 > img {
+  box-sizing: border-box;
+  border: 10px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 15px;
+}
+.item-3 > h3{
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.sale{
+
+}
+.sale > h4 {
+  color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+text-align: center;
+margin-top: 120px;
+}
+.sale > h1 {
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(7, 2, 17);
+}
+.red{
+  color: rgb(255, 0, 0);
+}
+.footer-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  width: 900px;
+  margin: 0px 160px;
+}
+.banner-sale{
+  margin-top: 64px;
+  display: flex;
+  width: 1250px;
+  height: 700px;
+  background-image:url(../assets/images/Group\ 44.png), url(../assets/images/Rectangle\ 2.png) ;
+  background-repeat: no-repeat;
+  background-position:top right, bottom;
+}
+.banner-sale > img {
+  color: rgba(255, 0, 150, 0.3)
+}
+
+.Catagory-description > h4{
+  margin-top: 100px;
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.Catagory-description > h2{
+  font-size: 42px;
+  font-weight: 900;
+}
+.Catagory-description > p{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  width: 850px;
+  height: 64px;
+}
+
+.catagory{
+  /* width: 1250px; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.image-size{
+  width: 400px;
+}
