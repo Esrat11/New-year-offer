@@ -192,7 +192,7 @@ margin-top: 120px;
 .banner-sale{
   margin-top: 64px;
   display: flex;
-  width: 1250px;
+  /* width: 1250px; */
   height: 700px;
   background-image:url(../assets/images/Group\ 44.png), url(../assets/images/Rectangle\ 2.png) ;
   background-repeat: no-repeat;
@@ -231,4 +231,96 @@ margin-top: 120px;
 }
 .image-size{
   width: 400px;
+}
+/* Footer-Section */
+.footer{
+  /* width: 1250px; */
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05); 
+}
+.footer > img{
+  padding: 120px 530px 0 530px;
+  width: 120px;
+}
+.footer > h2{
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 50px 130px 50px;
+  width: 1150px;
+  height: 250px;
+  background: rgb(255, 244, 214);
+ }
+ .form-box{
+  padding: 10px;
+  border-radius: 50px;
+background: rgb(255, 255, 255);
+ }
+ .form-box input{
+  width: 300px;
+  font-size: 16px;
+  color: black;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  background: white;
+  
+ }
+ .form-box button{
+  /* border-radius: 50px; */
+  color: white;
+  padding: 15px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  background: red;
+  cursor: pointer;
+  transition: .3s;
+ }
+ .form-box button:hover{
+  background: tomato;
+ }
+ .final{
+  /* width: 1250px; */
+  margin-top: 200px;
+  height: 500px;
+  background-color: black;
+ }
+ .footerbox-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 140px;
+ }
+ .footerbox-2{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+ }
+ .footerbox-3{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 140px;
+ }
+.footer-title{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.contact > p{
+  padding: 0px 0px 20px 0px;
+}
+.contact > img{
+  width: 25px;
+  height: 25px;
+}
+.number{
+ padding: 10px;
+ margin: 55px 9px;
 }
